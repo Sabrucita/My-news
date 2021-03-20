@@ -11,3 +11,28 @@ h1 {
     width: 50%;
     margin: auto;
 }
+.social-media-button {
+    background-color: white;
+    color: #262626;
+    border: 0.8px solid#ccccc2;
+    border-radius: 20px;
+    padding: 3px 7px;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+.social-media-button:hover{
+    background-color: #262626;
+    color: white;
+    cursor: pointer;
+}
+
+.social-text{
+    font-family: 'Karla', sans-serif;
+    text-decoration: none;
+    font-size: .875rem;
+    text-transform: uppercase;
+    margin-right: 3px;
+    display: inline-block;
+}
