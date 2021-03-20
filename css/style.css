@@ -18,16 +18,22 @@ h1 {
     border-radius: 20px;
     padding: 3px 7px;
     text-decoration: none;
-    margin-top: 20px;
     margin-bottom: 20px;
     display: inline-block;
+    transition: all .3s ease-out;
 }
 .social-media-button:hover{
     background-color: #262626;
     color: white;
     cursor: pointer;
+    border: 0.8px solid#262626;
 }
-
+.social-text:visited{
+    color: #262626;
+}
+.social-text:hover{
+    color: white;
+}
 .social-text{
     font-family: 'Karla', sans-serif;
     text-decoration: none;
@@ -35,4 +41,21 @@ h1 {
     text-transform: uppercase;
     margin-right: 3px;
     display: inline-block;
+}
+
+p{
+    font-family: 'Karla', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    color: #262626;
+}
+
+figcaption{
+    font-size: .75rem;
+    line-height: 1.4167;
+    color: #767676;
+    font-family: Arial,Verdana,sans-serif;
+}
+.rel-cont{
+    list-style-type: none;
 }
