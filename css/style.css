@@ -45,7 +45,7 @@ h1 {
 
 p{
     font-family: 'Karla', sans-serif;
-    font-size: 17px;
+    font-size: 1.0625rem;
     font-weight: 400;
     color: #262626;
 }
@@ -58,4 +58,39 @@ figcaption{
 }
 .rel-cont{
     list-style-type: none;
+    float:right;
+    font-family: 'Karla',Helvetica,Arial,Verdana,sans-serif;
+    text-transform: uppercase;
+    font-size: .9375rem;
+    line-height: 1.5;
+    text-align: left;
+}
+.rel-cont ul{
+    list-style: none;
+    max-width: 30%;
+    padding-left: 0px;
+}
+.container-left{
+    float: left;
+    max-width: 50%;
+}
+.container-right{
+    float:right;
+    padding-left: 25px;
+    max-width: 33.3%;
+    text-align: center;
+
+}
+.container-right a{
+    display: block;
+    padding-bottom: 30px;
+}
+.prom{
+    float: right;
+    text-align: left;
+}
+.prom-img{
+    float: left;
+    max-width: 100px;
+    padding-right: 12px;
 }
